@@ -136,31 +136,52 @@ const sorted = useMemo(() => items.sort(cmp), [items]);
 
 ---
 
-## 🎯 Coverage Targets
+## 📊 Current Status
 
-| Topic | Target |
-|-------|--------|
-| HTML | 50+ questions |
-| CSS | 120+ questions |
-| JavaScript | 300+ questions + 150+ coding problems |
-| TypeScript | 120+ questions |
-| React | 250+ questions |
-| Next.js | 180+ questions |
-| Node.js | 250+ questions |
-| Express.js | 100+ questions |
-| MongoDB | 150+ questions |
-| SQL / PostgreSQL | 200+ questions |
-| Redis | 60+ questions |
-| System Design | 100+ questions |
-| Git | 80+ questions |
-| AWS | 150+ questions |
-| Docker | 100+ questions |
-| CI/CD | 80+ questions |
-| Deployment | 80+ questions |
-| DSA | 250+ coding problems |
-| HR & Behavioral | 100+ questions |
+All 16 topics are covered end to end.
 
-**Goal:** 3,000+ interview questions with hundreds of practical, runnable examples.
+| | Count |
+|---|---|
+| Topics covered | **16 / 16** ✅ |
+| Total lines | ~35,000 |
+| Detailed Q&As (full format) | 460+ |
+| Rapid-fire Q&As | 440+ |
+| Code examples | 700+ |
+| **Interview Tips** | 395+ |
+| **Common Mistakes** callouts | 185+ |
+| Executable programs | 11 files |
+| Passing tests | **223** |
+
+Every `.js` file runs with `node <file>` and prints verified output.
+The DSA files ship with their own test suites:
+
+```bash
+node DSA/arrays.js        # 52 passed
+node DSA/strings.js       # 55 passed
+node DSA/linked-list.js   # 52 passed
+node DSA/trees.js         # 64 passed
+```
+
+---
+
+## 🎯 Expansion Targets
+
+Each topic currently covers the **most-asked** questions in depth. Long-term goal per topic:
+
+| Topic | Target | | Topic | Target |
+|-------|--------|---|-------|--------|
+| HTML | 50+ | | AWS | 150+ |
+| CSS | 120+ | | Docker | 100+ |
+| JavaScript | 300+ & 150 programs | | CI/CD | 80+ |
+| TypeScript | 120+ | | Deployment | 80+ |
+| React | 250+ | | Git | 80+ |
+| Next.js | 180+ | | MongoDB | 150+ |
+| Node.js | 250+ | | SQL / PostgreSQL | 200+ |
+| Express.js | 100+ | | Redis | 60+ |
+| System Design | 100+ | | DSA | 250+ problems |
+| HR & Behavioral | 100+ | | | |
+
+**Goal:** 3,000+ interview questions. Per-topic expansion passes and contributions welcome.
 
 ---
 
