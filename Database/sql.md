@@ -489,7 +489,7 @@ WITH grouped AS (
          login_date - (ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY login_date))::int AS grp
   FROM logins
 )
-SELECT user_id, MIN(login_date) AS streak_start, MIN(login_date) AS streak_end, COUNT(*) AS streak_length
+SELECT user_id, MIN(login_date) AS streak_start, MAX(login_date) AS streak_end, COUNT(*) AS streak_length
 FROM grouped
 GROUP BY user_id, grp
 HAVING COUNT(*) >= 3;
