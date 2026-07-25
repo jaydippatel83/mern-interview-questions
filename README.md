@@ -15,15 +15,16 @@ Everything required to crack **Frontend + Full Stack** interviews — theory, qu
 | 5 | React | [React/](React/) | Core, hooks, performance, patterns, coding rounds |
 | 6 | Next.js | [NextJS/](NextJS/) | App Router, SSR/SSG/ISR, Server Actions, caching |
 | 7 | Node.js | [NodeJS/](NodeJS/) | Event loop, streams, clustering, Express, auth |
-| 8 | Database | [Database/](Database/) | MongoDB, SQL, PostgreSQL, Redis |
-| 9 | System Design | [System-Design/](System-Design/) | Scaling, caching, queues, HLD/LLD case studies |
-| 10 | AWS | [AWS/](AWS/) | EC2, S3, IAM, CloudFront, ALB, Route53, Lambda, VPC |
-| 11 | Docker | [Docker/](Docker/) | Images, layers, compose, networking, Kubernetes basics |
-| 12 | CI/CD | [CI-CD/](CI-CD/) | GitHub Actions, Jenkins, build/test/deploy/rollback |
-| 13 | Deployment | [Deployment/](Deployment/) | Nginx, PM2, SSL, VPS, DNS, reverse proxy |
-| 14 | Git | [Git/](Git/) | Branching, rebase, merge, conflicts, workflows |
-| 15 | DSA | [DSA/](DSA/) | Arrays, strings, linked list, trees, graphs, DP |
-| 16 | HR & Behavioral | [HR/](HR/) | STAR answers, salary negotiation, culture fit |
+| 8 | GraphQL | [GraphQL/](GraphQL/) | Schema, resolvers, N+1/DataLoader, subscriptions, Apollo |
+| 9 | Database | [Database/](Database/) | MongoDB, SQL, PostgreSQL, Redis |
+| 10 | System Design | [System-Design/](System-Design/) | Scaling, caching, queues, HLD/LLD case studies |
+| 11 | AWS | [AWS/](AWS/) | EC2, S3, IAM, CloudFront, ALB, Route53, Lambda, VPC |
+| 12 | Docker | [Docker/](Docker/) | Images, layers, compose, networking, Kubernetes basics |
+| 13 | CI/CD | [CI-CD/](CI-CD/) | GitHub Actions, Jenkins, build/test/deploy/rollback |
+| 14 | Deployment | [Deployment/](Deployment/) | Nginx, PM2, SSL, VPS, DNS, reverse proxy |
+| 15 | Git | [Git/](Git/) | Branching, rebase, merge, conflicts, workflows |
+| 16 | DSA | [DSA/](DSA/) | Arrays, strings, linked list, trees, graphs, DP |
+| 17 | HR & Behavioral | [HR/](HR/) | STAR answers, salary negotiation, culture fit |
 
 ---
 
@@ -66,6 +67,9 @@ mern-interview-questions/
 │   ├── express-interview.md
 │   ├── authentication.md
 │   └── coding.js
+│
+├── GraphQL/
+│   └── graphql-interview.md
 │
 ├── Database/
 │   ├── mongodb.md
@@ -142,7 +146,7 @@ All 16 topics are covered end to end.
 
 | | Count |
 |---|---|
-| Topics covered | **16 / 16** ✅ |
+| Topics covered | **17 / 17** ✅ |
 | Total lines | ~35,000 |
 | Detailed Q&As (full format) | 460+ |
 | Rapid-fire Q&As | 440+ |
@@ -178,8 +182,8 @@ Each topic currently covers the **most-asked** questions in depth. Long-term goa
 | Next.js | 180+ | | MongoDB | 150+ |
 | Node.js | 250+ | | SQL / PostgreSQL | 200+ |
 | Express.js | 100+ | | Redis | 60+ |
-| System Design | 100+ | | DSA | 250+ problems |
-| HR & Behavioral | 100+ | | | |
+| GraphQL | 120+ | | DSA | 250+ problems |
+| System Design | 100+ | | HR & Behavioral | 100+ |
 
 **Goal:** 3,000+ interview questions. Per-topic expansion passes and contributions welcome.
 
